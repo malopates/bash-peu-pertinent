@@ -7,3 +7,6 @@ Supprime l'ensemble des .sh du dépôt
 
 ### Sacrifice.sh
 Supprime juste lui
+
+### Roulette.sh 
+Jeu de roulette basique
