@@ -14,8 +14,7 @@ probabilite=50
         sleep 2
 
         echo ${options[$r]#*le}
-        
-        if [ $r -eq 0 ] ; then
+        if [ $r -eq $(($REPLY-1)) ] ; then
         printf ""
         probabilite=$(($probabilite/2))
         argent=$((argent*2))
